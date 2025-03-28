@@ -1,0 +1,1 @@
+Ask the user for two numbers, one at a time, and then print the result of dividing the first number by the second and also the remainder of the division.

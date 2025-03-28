@@ -1,0 +1,1 @@
+A program to Converts feet to inches. Feet is an American unit of measurement. 
