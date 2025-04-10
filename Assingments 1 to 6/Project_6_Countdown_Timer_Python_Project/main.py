@@ -1,6 +1,20 @@
-def main():
-    print("Hello from project-6-countdown-timer-python-project!")
+import time 
+
+def main(times):
+    while times:
+        mins, secs = divmod(times, 60)
+        timer = '{:02d}:{:02d}'.format(mins, secs)
+        print(timer, end='\r')
+        time.sleep(1)
+        times -= 1
+
+    
+    print("\nTimer Completed!")
+
+times =input("\nEnter the time in seconds: ")
+        
+    
 
 
 if __name__ == "__main__":
-    main()
+    main(int(times))

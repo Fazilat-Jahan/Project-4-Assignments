@@ -1,0 +1,1 @@
+A progream to build a guessing game where the computer has to guess the correct number, worked with Python's random module, build functions, while loops and conditionals, and get user input.
